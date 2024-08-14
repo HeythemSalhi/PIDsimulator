@@ -59,7 +59,7 @@ class SimulationWidget(QWidget):
         # Setpoint input
         setpoint_layout = QHBoxLayout()
         setpoint_layout.addWidget(QLabel("Setpoint:"))
-        self.setpoint_edit = QLineEdit("50.0")
+        self.setpoint_edit = QLineEdit("255.0")
         setpoint_layout.addWidget(self.setpoint_edit)
         layout.addLayout(setpoint_layout)
 
