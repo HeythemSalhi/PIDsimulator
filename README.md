@@ -33,5 +33,5 @@ pyinstaller --onefile --windowed .\prg_name.py
 the --onefile flag tells PyInstaller to bundle everything into a single executable.  
 the --windowed flag, if your script is a GUI application and you want to avoid opening a terminal window.
 
-Locate the Executable:
+Locate the Executable:  
 After the process completes, you’ll find the executable in the dist folder inside your script's directory.
