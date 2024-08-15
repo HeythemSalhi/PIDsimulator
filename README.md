@@ -20,7 +20,7 @@ Install the dependencies using:
 
 ```bash
 pip install pyqt5 matplotlib numpy
-
+```
 
 # Produce exe from python program
 
@@ -28,6 +28,7 @@ To produce an executable (EXE) from a Python program, you can use a tool like Py
 
 ```bash
 pyinstaller --onefile --windowed .\prg_name.py
+```
 
 the --onefile flag tells PyInstaller to bundle everything into a single executable.
 the --windowed flag, if your script is a GUI application and you want to avoid opening a terminal window.
